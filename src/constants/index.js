@@ -142,7 +142,7 @@ const experiences = [
     iconBg: "#1A3156",
     date: "February 2024 - August 2024",
     points: [
-      "Subject: Exploring Data Augmentation Techniques, Including Synthetic Data, to Enhance Road Object Detection in Specific Conditions.",
+      "Exploring Data Augmentation Techniques, Including Synthetic Data, to Enhance Road Object Detection in Specific Conditions.",
       "Learning to use the CARLA simulator to generate synthetic training data with specified objects and parameters, and creating a user interface to automate new dataset generation.",
       "Pre-processing, merging, and refining data to prepare datasets for the network.",
       "Training a CNN-based object detection model with the augmented datasets.",
@@ -185,6 +185,9 @@ const educations = [
     icon: bordeaux,
     iconBg: "#ffffff",
     date: "March 2020 - April 2021",
+    points: [
+      
+    ],
   },
   {
     title: "Erasmus+ Exchange Program at The technical university of Munich, Germany",
@@ -192,7 +195,9 @@ const educations = [
     icon: tum,
     iconBg: "#ffffff",
     date: "Jan 2021 - Feb 2022",
-
+    points: [
+      
+    ],
   },
   {
     title: "Master in Probability and applied statistics",
@@ -200,7 +205,9 @@ const educations = [
     icon: lorraine,
     iconBg: "#ffffff",
     date: "Jan 2022 - Jan 2023",
-
+    points: [
+      
+    ],
   },
   {
     title: "License in applied mathematics",
@@ -209,7 +216,7 @@ const educations = [
     iconBg: "#ffffff",
     date: "Jan 2023 - Present",
     points: [
-  
+     
     ],
   },
 ];
