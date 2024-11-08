@@ -136,29 +136,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Computer vision Engineer",
+    title: "Computer Vision Engineer | Data Scientist",
     company_name: "Lacroix Group, Rennes-France",
     icon: lacroix,
     iconBg: "#1A3156",
-    date: "March 2020 - April 2021",
+    date: "February 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Subject: Exploring Data Augmentation Techniques, Including Synthetic Data, to Enhance Road Object Detection in Specific Conditions.",
+      "Learning to use the CARLA simulator to generate synthetic training data with specified objects and parameters, and creating a user interface to automate new dataset generation.",
+      "Pre-processing, merging, and refining data to prepare datasets for the network.",
+      "Training a CNN-based object detection model with the augmented datasets.",
+      "Establishing a benchmarking system to quantify the impact of synthetic datasets on network performance.",
     ],
   },
   {
-    title: "AI Engineer",
+    title: "Machine Learning Engineer",
     company_name: "Capgemini, Strasbourg-France",
     icon: capgemini,
     iconBg: "#ffffff",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2022 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing an AI Algorithm for Organ Segmentation on 3D Medical Data in a Pre-Diagnostic Context for the University Hospital Center of Nancy.",
+      "Performing 3D segmentation of the placenta using 3D Doppler angiography volumes provided by the CHU of Nancy.",
+      "Developing a customized AI algorithm for medical segmentation challenges.",
+      "Implementing a 3D U-Net neural network using PyTorch, leveraging the Monai library specifically designed for medical imaging.",
+      "Publishing an internal scientific article within the Capgemini group.",
     ],
   },
   {
@@ -168,10 +170,9 @@ const experiences = [
     iconBg: "#009999",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Cleaning and preparing data for analysis.",
+      "Analyzing the data.",
+      "mplementing machine learning models.",
     ],
   },
   
@@ -184,9 +185,6 @@ const educations = [
     icon: bordeaux,
     iconBg: "#ffffff",
     date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-    ],
   },
   {
     title: "Erasmus+ Exchange Program at The technical university of Munich, Germany",
@@ -194,9 +192,7 @@ const educations = [
     icon: tum,
     iconBg: "#ffffff",
     date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-    ],
+
   },
   {
     title: "Master in Probability and applied statistics",
@@ -204,9 +200,7 @@ const educations = [
     icon: lorraine,
     iconBg: "#ffffff",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-    ],
+
   },
   {
     title: "License in applied mathematics",
@@ -215,7 +209,7 @@ const educations = [
     iconBg: "#ffffff",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+  
     ],
   },
 ];
