@@ -184,7 +184,7 @@ const educations = [
     company_name: "University of Bordeaux",
     icon: bordeaux,
     iconBg: "#ffffff",
-    date: "March 2020 - April 2021",
+    date: "2023 -  2024",
     points: [
       
     ],
@@ -194,7 +194,7 @@ const educations = [
     company_name: "TUM, Munich-Germany",
     icon: tum,
     iconBg: "#ffffff",
-    date: "Jan 2021 - Feb 2022",
+    date: "2021 - 2022",
     points: [
       
     ],
@@ -204,7 +204,7 @@ const educations = [
     company_name: "University of Lorraine, Metz-France",
     icon: lorraine,
     iconBg: "#ffffff",
-    date: "Jan 2022 - Jan 2023",
+    date: "2020 - 2022",
     points: [
       
     ],
@@ -214,7 +214,7 @@ const educations = [
     company_name: "University of Lorraine, Metz-France",
     icon: lorraine,
     iconBg: "#ffffff",
-    date: "Jan 2023 - Present",
+    date: "2019 - 2020",
     points: [
      
     ],
