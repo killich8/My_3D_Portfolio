@@ -55,8 +55,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
-        I'm a skilled Data scientist with experience in Machine Learning and
-        Deep Learning, and expertise in frameworks like Pytorch and Tensorflow.
+        I'm a skilled Data scientist with experience in Machine Learning,
+        Deep Learning, Generative IA and expertise in frameworks like Pytorch and Tensorflow.
         I'm a quick learner and collaborate closely with my team to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems.

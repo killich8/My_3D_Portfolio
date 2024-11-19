@@ -30,6 +30,8 @@ import aws from "./tech/aws.png";
 import azure from "./tech/azure.png";
 import matlab from "./tech/matlab.png";
 import gcp from "./tech/gcp.png";
+import mlflow from "./tech/mlflow.png";
+import r from "./tech/r.png";
 
 
 import meta from "./company/meta.png";
@@ -108,4 +110,6 @@ export {
   movie_recommender,
   wine,
   cardio,
+  mlflow,
+  r,
 };

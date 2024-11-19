@@ -43,6 +43,7 @@ import {
   movie_recommender,
   wine,
   cardio,
+  r,
 } from "../assets";
 
 export const navLinks = [
@@ -126,7 +127,7 @@ const technologies = [
   },
   {
     name: "figma",
-    icon: figma,
+    icon: r,
   },
   {
     name: "docker",
@@ -142,7 +143,7 @@ const experiences = [
     iconBg: "#1A3156",
     date: "February 2024 - August 2024",
     points: [
-      "Exploring Data Augmentation Techniques, Including Synthetic Data, to Enhance Road Object Detection in Specific Conditions.",
+      "Exploring data augmentation techniques, including synthetic data, to enhance road Object Detection in specific conditions.",
       "Learning to use the CARLA simulator to generate synthetic training data with specified objects and parameters, and creating a user interface to automate new dataset generation.",
       "Pre-processing, merging, and refining data to prepare datasets for the network.",
       "Training a CNN-based object detection model with the augmented datasets.",
@@ -154,7 +155,7 @@ const experiences = [
     company_name: "Capgemini, Strasbourg-France",
     icon: capgemini,
     iconBg: "#ffffff",
-    date: "October 2022 - April 2024",
+    date: "October 2022 - April 2023",
     points: [
       "Developing an AI Algorithm for Organ Segmentation on 3D Medical Data in a Pre-Diagnostic Context for the University Hospital Center of Nancy.",
       "Performing 3D segmentation of the placenta using 3D Doppler angiography volumes provided by the CHU of Nancy.",
@@ -168,11 +169,11 @@ const experiences = [
     company_name: "Siemens, Munich-Germany",
     icon: siemens,
     iconBg: "#009999",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2021 - January 2022",
     points: [
       "Cleaning and preparing data for analysis.",
       "Analyzing the data.",
-      "mplementing machine learning models.",
+      "Implementing machine learning models.",
     ],
   },
   
@@ -249,70 +250,7 @@ const testimonials = [
   },
 ];
 
-const projects = [
-  {
-    name: "Chest Cancer Classifier",
-    description:
-      "End-to-End Chest Cancer Classification using MLflow & DVC.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tensorflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MLOps",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chest,
-    source_code_link: "https://github.com/killich8/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC",
-  },
-  {
-    name: "Medical Chatbot Project",
-    description:
-      "End-to-End Medical Chatbot",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tensorflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "LLMOps",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatbot,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Movie Recommender System",
-    description:
-      " End-to-End Movie Recommender System",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie_recommender,
-    source_code_link: "https://github.com/",
-  },
+const projects = [ 
   {
     name: "Cardiovascular Disease",
     description:
@@ -327,11 +265,90 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "MLOps",
+        name: "MLflow",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Git",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CI/CD",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "orange-text-gradient",
       },
     ],
     image: cardio,
+    source_code_link: "https://github.com/killich8/End-to-End-Cardiovascular-Disease",
+  },
+  {
+    name: "Chest Cancer Classifier",
+    description:
+      "End-to-End Chest Cancer Classification using MLflow & DVC.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tensorflow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MLflow",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CI/CD",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "DVC",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Azure",
+          color: "blue-text-gradient",
+        },
+      ],
+    image: chest,
+    source_code_link: "https://github.com/killich8/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC",
+  },
+
+  {
+    name: "Medical Chatbot Project",
+    description:
+      "End-to-End Medical Chatbot",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LLM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "LLMOps",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbot,
     source_code_link: "https://github.com/",
   },
 

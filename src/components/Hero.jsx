@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I'm a Data Scientist, <br className='sm:block hidden' />
-          passionate about Machine Learning, Deep Learning, and NLP. Dedicated and ambitious in my pursuits.
+          passionate about Machine Learning, Deep Learning, NLP and Generative IA. Dedicated and ambitious in my pursuits.
 
           </p>
         </div>
