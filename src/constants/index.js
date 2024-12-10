@@ -137,31 +137,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Computer Vision Engineer | Data Scientist",
-    company_name: "Lacroix Group, Rennes-France",
-    icon: lacroix,
-    iconBg: "#1A3156",
-    date: "February 2024 - August 2024",
-    points: [
-      "Exploring data augmentation techniques, including synthetic data, to enhance road Object Detection in specific conditions.",
-      "Learning to use the CARLA simulator to generate synthetic training data with specified objects and parameters, and creating a user interface to automate new dataset generation.",
-      "Pre-processing, merging, and refining data to prepare datasets for the network.",
-      "Training a CNN-based object detection model with the augmented datasets.",
-      "Establishing a benchmarking system to quantify the impact of synthetic datasets on network performance.",
-    ],
-  },
-  {
     title: "Machine Learning Engineer",
     company_name: "Capgemini, Strasbourg-France",
     icon: capgemini,
     iconBg: "#ffffff",
-    date: "October 2022 - April 2023",
+    date: " April 2024 - September 2024",
     points: [
       "Developing an AI Algorithm for Organ Segmentation on 3D Medical Data in a Pre-Diagnostic Context for the University Hospital Center of Nancy.",
       "Performing 3D segmentation of the placenta using 3D Doppler angiography volumes provided by the CHU of Nancy.",
       "Developing a customized AI algorithm for medical segmentation challenges.",
       "Implementing a 3D U-Net neural network using PyTorch, leveraging the Monai library specifically designed for medical imaging.",
       "Publishing an internal scientific article within the Capgemini group.",
+    ],
+  },
+  {
+    title: "Computer Vision Engineer | Data Scientist",
+    company_name: "Lacroix Group, Rennes-France",
+    icon: lacroix,
+    iconBg: "#1A3156",
+    date: "September 2022 - March 2023",
+    points: [
+      "Exploring data augmentation techniques, including synthetic data, to enhance road Object Detection in specific conditions.",
+      "Learning to use the CARLA simulator to generate synthetic training data with specified objects and parameters, and creating a user interface to automate new dataset generation.",
+      "Pre-processing, merging, and refining data to prepare datasets for the network.",
+      "Training a CNN-based object detection model with the augmented datasets.",
+      "Establishing a benchmarking system to quantify the impact of synthetic datasets on network performance.",
     ],
   },
   {
