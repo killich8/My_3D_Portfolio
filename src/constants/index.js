@@ -12,7 +12,6 @@ import {
   bordeaux,
   tum,
   lorraine,
-  threejs,
   python,
   c,
   pytorch,
@@ -65,11 +64,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "python",
     icon: python,
   },
   {
-    name: "CSS 3",
+    name: "C",
     icon: c,
   },
   {
@@ -77,31 +76,31 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "pytorch",
     icon: pytorch,
   },
   {
-    name: "React JS",
+    name: "tensorflow",
     icon: tensorflow,
   },
   {
-    name: "Redux Toolkit",
+    name: "opencv",
     icon: opencv,
   },
   {
-    name: "Tailwind CSS",
+    name: "matlab",
     icon: matlab,
   },
   {
-    name: "Node JS",
+    name: "aws",
     icon: aws,
   },
   {
-    name: "MongoDB",
+    name: "azure",
     icon: azure,
   },
   {
-    name: "Three JS",
+    name: "gcp",
     icon: gcp,
   },
   {
@@ -109,7 +108,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "r",
     icon: r,
   },
   {
@@ -343,4 +342,4 @@ const articles = [
 
 ];
 
-export { services, technologies, experiences,educations, projects,articles };
+export { services, technologies, experiences,educations, projects, articles };

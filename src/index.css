@@ -44,7 +44,7 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
+  background: #00cea8;
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
@@ -82,7 +82,6 @@
 }
 
 .blue-text-gradient {
-  /* background: -webkit-linear-gradient(#eee, #333); */
   background: #56ccf2; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -189,7 +188,8 @@
       2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
       1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
       0em 2.5em 0 0em rgba(255, 255, 255, 0.5),
-      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7), -2.6em 0em 0 0em #ffffff,
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7),
+      -2.6em 0em 0 0em #ffffff,
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
   }
   87.5% {
@@ -199,6 +199,32 @@
       1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
-      -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.7),
+      -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Appliquer les styles spécifiques pour les petits écrans (tablettes/smartphones) */
+  .some-class {
+    font-size: 14px;
+  }
+
+  /* Exemple d'ajustement pour la mise en page */
+  .container {
+    padding: 10px;
+  }
+
+  /* Exemple d'ajustement pour les images */
+  img {
+    max-width: 100%;
+    height: auto; /* Pour s'assurer qu'elles s'adaptent bien */
+  }
+
+  /* Réduire la taille des titres */
+  h1,
+  h2,
+  h3 {
+    font-size: 1.2em;
   }
 }
