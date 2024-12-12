@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Analytics } from '@vercel/analytics/react';
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas,Education } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, Blogs, StarsCanvas,Education } from "./components";
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
         <Education />
         <Tech />
         <Works />
+        <Blogs />
       
         <div className='relative z-0'>
           <Contact />

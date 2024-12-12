@@ -4,6 +4,10 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import medium from "./medium.png";
+import medium1 from "./medium1.png";
+
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -34,10 +38,7 @@ import mlflow from "./tech/mlflow.png";
 import r from "./tech/r.png";
 
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
 import capgemini from "./company/capgemini.png";
 import lacroix from "./company/lacroix.png";
 import siemens from "./company/siemens.png";
@@ -48,12 +49,10 @@ import lorraine from "./education/lorraine.png";
 import tum from "./education/tum.png";
 
 
+import camp_party from "./blogs/camp_party.jpg";
 
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import chatbot from "./chatbot.png";
 import chest from "./chest.png";
@@ -83,13 +82,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   capgemini,
   lacroix,
   siemens,
@@ -112,4 +104,7 @@ export {
   cardio,
   mlflow,
   r,
+  camp_party,
+  medium,
+  medium1,
 };
