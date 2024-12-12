@@ -6,7 +6,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Education from './Education';
 import Works from './Works';
-import Blogs from './blogs';
+import Blogs from './Blogs_section.jsx';
 import Contact from './Contact';
 
 export {
